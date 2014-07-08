@@ -152,6 +152,8 @@ if [ -f .heroku/python-version ]; then
   fi
 fi
 
+puts-step "This is alvin's buildpack"
+
 
 if [ ! "$SKIP_INSTALL" ]; then
   bpwatch start install_python

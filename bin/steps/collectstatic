@@ -34,4 +34,3 @@ if [ ! "$DISABLE_COLLECTSTATIC" ] && [ -f "$MANAGE_FILE" ]; then
 
 
 fi
-echo "Didnt run"
